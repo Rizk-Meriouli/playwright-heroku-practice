@@ -3,7 +3,7 @@
 A structured **QA Automation learning project** built with **Playwright and TypeScript**, focused on practicing real-world web automation against  
 https://the-internet.herokuapp.com
 
-This repository documents **daily learning progress**, architectural decisions, and automation best practices from a QA Engineer perspective.
+This repository documents **My learning progress**, architectural decisions, and automation best practices from a QA Engineer perspective.
 
 ---
 
@@ -16,14 +16,23 @@ This repository documents **daily learning progress**, architectural decisions, 
 
 ---
 
-## Tech Stack
+A deliberately vulnerable and test-friendly web application used to practice:
+- UI automation
+- Functional testing
+- Browser behavior validation
 
+## Tech Stack
 - Playwright
 - TypeScript
 - Node.js
 - Playwright Test Runner
 
----
+## Current Coverage
+- Project initialization
+- Browser setup (Chromium, Firefox, WebKit)
+- First navigation test
 
-## Project Structure
+## How to Run Tests
+```bash
+npx playwright test
 
