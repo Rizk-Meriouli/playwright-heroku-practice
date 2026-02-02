@@ -8,6 +8,7 @@ test('checkboxes can be toggled', async ({ page }) => {
 
     const firstWasChecked = await firstCheckbox.isChecked();
 
+    // --- First checkbox: toggle based on current state
     if (firstWasChecked) {
         await firstCheckbox.uncheck();
         await expect(firstCheckbox).not.toBeChecked();
@@ -16,6 +17,7 @@ test('checkboxes can be toggled', async ({ page }) => {
         await expect(firstCheckbox).toBeChecked();
     }
 
+    // --- Second checkbox: toggle based on current state
     const secondWasChecked = await secondCheckbox.isChecked();
 
     if (secondWasChecked) {
